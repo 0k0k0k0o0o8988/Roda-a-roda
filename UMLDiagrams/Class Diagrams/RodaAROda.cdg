@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="RodaAROda">
+  <ClassDiagramComponents>
+    <Class name="RodaARoda" package="" visibility="public" xPosition="318.0" yPosition="102.0">
+      <Fields>
+        <Field name="partida" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="partida" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Roda" package="" visibility="public" xPosition="66.0" yPosition="333.0">
+      <Fields>
+        <Field name="verificador" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="rodar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Palavras" package="" visibility="public" xPosition="271.0" yPosition="365.0">
+      <Fields>
+        <Field name="indice" type="int" visibility="private"/>
+        <Field name="palavra" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="sortearPalavra" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Jogador" package="" visibility="public" xPosition="495.0" yPosition="333.0">
+      <Fields>
+        <Field name="numJogador" type="int" visibility="private"/>
+        <Field name="scorePartida" type="int" visibility="private"/>
+        <Field name="scoreTotal" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
